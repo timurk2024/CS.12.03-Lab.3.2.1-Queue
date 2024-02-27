@@ -15,12 +15,10 @@ public class BreadthFirstSearch {
         // Create a visited array.
         // This array will track whether we have visited a specific node.
 
-        // Create a bfs array and a bfs index.
+        // Create a bfs path array and a bfs path index.
         // This array will track the order that the nodes were visited.
 
         // Add the first node (0) to the bfs array.
-
-        // Record the first node as having been visited.
 
         // Time to traverse the graph!
         // While the queue is not empty ...
@@ -35,11 +33,11 @@ public class BreadthFirstSearch {
                 // Store the neighbour in a variable called neighbour.
 
                 // If neighbour hasn't been visited before ...
-                // Mark neighbour as visited.
+        
                 // Add neighbour to the queue.
-                // Add neighbour to bfs.
+                // Add neighbour to bfs path.
 
-        // Return bfs.
+        // Return bfs path.
         return null;
     }
 }
