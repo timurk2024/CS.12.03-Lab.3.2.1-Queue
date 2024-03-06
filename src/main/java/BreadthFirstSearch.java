@@ -14,7 +14,7 @@ public class BreadthFirstSearch {
 
         // Create a bfs path array and a bfs path index. This array will track the order that the nodes were visited.
 
-        // Add the first node (0) to the bfs array.
+        // Add the first node (0) to the queue.
 
         // Record the first node (0) as visited.
         
